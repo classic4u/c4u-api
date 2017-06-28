@@ -45655,10 +45655,25 @@ var _react2 = _interopRequireDefault(_react);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var recentsIcon = _react2.default.createElement(
+var twitterIcon = _react2.default.createElement(
   _FontIcon2.default,
-  { className: 'material-icons' },
-  'restore'
+  null,
+  'Twitter'
+);
+var twitchIcon = _react2.default.createElement(
+  _FontIcon2.default,
+  null,
+  'Twitch'
+);
+var steamIcon = _react2.default.createElement(
+  _FontIcon2.default,
+  null,
+  'Steam'
+);
+var gitHubIcon = _react2.default.createElement(
+  _FontIcon2.default,
+  null,
+  'GitHub'
 );
 
 var Footer = function Footer() {
@@ -45666,29 +45681,25 @@ var Footer = function Footer() {
     _BottomNavigation.BottomNavigation,
     null,
     _react2.default.createElement(_BottomNavigation.BottomNavigationItem, {
-      label: 'Twitter',
-      icon: recentsIcon,
+      icon: twitterIcon,
       onTouchTap: function onTouchTap() {
         return window.open('https://twitter.com/classic4utv');
       }
     }),
     _react2.default.createElement(_BottomNavigation.BottomNavigationItem, {
-      label: 'Twitch',
-      icon: recentsIcon,
+      icon: twitchIcon,
       onTouchTap: function onTouchTap() {
         return window.open('https://www.twitch.tv/classic4u');
       }
     }),
     _react2.default.createElement(_BottomNavigation.BottomNavigationItem, {
-      label: 'Steam',
-      icon: recentsIcon,
+      icon: steamIcon,
       onTouchTap: function onTouchTap() {
         return window.open('https://steamcommunity.com/id/classic4u/');
       }
     }),
     _react2.default.createElement(_BottomNavigation.BottomNavigationItem, {
-      label: 'GitHub',
-      icon: recentsIcon,
+      icon: gitHubIcon,
       onTouchTap: function onTouchTap() {
         return window.open('https://github.com/classic4u');
       }
@@ -46659,7 +46670,7 @@ var Header = function Header() {
     null,
     _react2.default.createElement(_materialUi.AppBar, {
       title: 'classic4u',
-      iconElementLeft: _react2.default.createElement('img', { src: 'http://localhost:3000/logo.png', className: 'logo', alt: 'Logo' })
+      iconElementLeft: _react2.default.createElement('img', { src: 'logo.png', className: 'logo', alt: 'Logo' })
     }),
     _react2.default.createElement(
       _materialUi.Tabs,
@@ -66933,19 +66944,6 @@ var BDO = function BDO() {
     _react2.default.createElement(
       _materialUi.Card,
       null,
-      _react2.default.createElement(
-        _materialUi.CardText,
-        null,
-        _react2.default.createElement(
-          'a',
-          { target: '_blank', href: '' },
-          'Target Build'
-        )
-      )
-    ),
-    _react2.default.createElement(
-      _materialUi.Card,
-      null,
       _react2.default.createElement(_materialUi.CardTitle, {
         title: 'BDO Resources',
         subtitle: 'Extremely Useful.'
@@ -66962,7 +66960,7 @@ var BDO = function BDO() {
       _react2.default.createElement(
         _materialUi.CardText,
         { expandable: true },
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis pretium massa. Aliquam erat volutpat. Nulla facilisi. Donec vulputate interdum sollicitudin. Nunc lacinia auctor quam sed pellentesque. Aliquam dui mauris, mattis quis lacus id, pellentesque lobortis odio.'
+        'HA HA! WIP'
       )
     ),
     _react2.default.createElement(
@@ -66976,7 +66974,7 @@ var BDO = function BDO() {
       _react2.default.createElement(
         _materialUi.CardText,
         { expandable: true },
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis pretium massa. Aliquam erat volutpat. Nulla facilisi. Donec vulputate interdum sollicitudin. Nunc lacinia auctor quam sed pellentesque. Aliquam dui mauris, mattis quis lacus id, pellentesque lobortis odio.'
+        'HA HA! WIP'
       )
     ),
     _react2.default.createElement(
@@ -66990,7 +66988,7 @@ var BDO = function BDO() {
       _react2.default.createElement(
         _materialUi.CardText,
         { expandable: true },
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis pretium massa. Aliquam erat volutpat. Nulla facilisi. Donec vulputate interdum sollicitudin. Nunc lacinia auctor quam sed pellentesque. Aliquam dui mauris, mattis quis lacus id, pellentesque lobortis odio.'
+        'HA HA! WIP'
       )
     )
   );
@@ -67031,13 +67029,96 @@ var Home = function Home() {
         _react2.default.createElement(
           'p',
           null,
-          'I\'m classic4u.  I\'m trying to take a more holistic approach.'
+          'I\'m classic4u.  I\'m trying to take a well-rounded approach to the gaming lifestyle.'
         ),
         _react2.default.createElement(
           'p',
           null,
-          'The four tenets of Classicism'
+          'Come join me as I attempt to better myself, better my community, and pwn some n00bz in the process!'
         ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'This website is a work-in-progress. Check in every now and then!'
+        )
+      )
+    ),
+    _react2.default.createElement(
+      _materialUi.Card,
+      null,
+      _react2.default.createElement(_materialUi.CardTitle, { title: "FAQ" }),
+      _react2.default.createElement(
+        _materialUi.CardText,
+        null,
+        _react2.default.createElement(
+          'p',
+          null,
+          _react2.default.createElement(
+            'b',
+            null,
+            'How old are you?'
+          ),
+          ' 28'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          _react2.default.createElement(
+            'b',
+            null,
+            'Where do you live?'
+          ),
+          ' Los Angeles'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          _react2.default.createElement(
+            'b',
+            null,
+            'What do you do for a living?'
+          ),
+          ' I\'m a software developer by trade.  I made enough money coding and trading to take a year to pursue my dreams - Right now, I\'m part-time streaming and part-time cryptocurrency trading!'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          _react2.default.createElement(
+            'b',
+            null,
+            'What other stuff do you do?'
+          ),
+          ' I enjoy playing the guitar, going to concerts, drinking whiskey with friends, tabletop gaming, reading, amongst other stuff.'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          _react2.default.createElement(
+            'b',
+            null,
+            'What\'s with this "well-rounded" bullshit?'
+          ),
+          ' I have a dream, that one day, gamers will be regarded as more than Cheeto-dusted, Mountain Dew-ridden, scoliosis-having memesters. I\'m trying to build a community that enjoys gaming but supports each other in all aspects of life.'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          _react2.default.createElement(
+            'b',
+            null,
+            'Anything else I should know about you?'
+          ),
+          ' I\'ve dealt with a lot of anxiety my whole life, and gaming has been one of my outlets since I was about 8 years old. Some things never change, but the way you deal with them does.'
+        )
+      )
+    ),
+    _react2.default.createElement(
+      _materialUi.Card,
+      null,
+      _react2.default.createElement(_materialUi.CardTitle, { title: "The four tenets of Classicism" }),
+      _react2.default.createElement(
+        _materialUi.CardText,
+        null,
         _react2.default.createElement(
           'p',
           null,
@@ -67051,12 +67132,12 @@ var Home = function Home() {
         _react2.default.createElement(
           'p',
           null,
-          'Depth.'
+          'Community.'
         ),
         _react2.default.createElement(
           'p',
           null,
-          'Depth.'
+          'Self.'
         )
       )
     )
