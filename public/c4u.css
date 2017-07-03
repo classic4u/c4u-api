@@ -6,9 +6,3 @@
   height: 48px;
   width: auto;
 }
-
-.gear-description {
-  line-height: 1.6em !important;
-  white-space: normal !important;
-  word-wrap: break-word !important;
-}
