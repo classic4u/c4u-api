@@ -1,24 +1,6 @@
-# README
+c4u-api
+=======
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+TODO
+----
+- Make Cap deploy restart Rails server (`mkdir c4u-api/current/tmp && touch c4u-api/current/tmp/restart.txt` )
